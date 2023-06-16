@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+    background-image: url('/images/toybackground.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  button {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button-container {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -45%);
+    text-align: center;
+    border: 2px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    
+  }
+  
+  button:hover {
+    background-color: #ffa000;
+  }
+  
+  button#seven {
+    background-color: #cf4007;
+    color: white;
+  }
+  
+  button#seven:hover {
+    background-color: #8c0909;
+  }
+  button#speak {
+    background-color: #0edc04;
+    color: white;
+  }
+  
+  button#speak:hover {
+    background-color: #037324;
+  }
